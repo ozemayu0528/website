@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+.top-page {
+    height: 80vh;
+    width: 100vw;
+    background-image: url(../img/table.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    transition: 2s;
+}
+
+
+header {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.logo {
+    height: 80px;
+}
+li {
+    font-size: 30px;
+    float: left;
+    margin-left: 60px;
+    color:  rgb(34, 8, 94);
+}
+a {
+    text-decoration: none;
+    color:  rgb(34, 8, 94);
+}
+.main-visual {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.main-visual h1 {
+    font-size: 160px;
+    color: rgb(33, 9, 71);
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    
+   
+}
+    
+.main-visual h2 {
+    font-size: 100px;
+    color: rgb(33, 9, 71);
+    text-align: center; 
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+.main-visual p {
+    font-size: 30px;
+    color: rgb(21, 6, 56);
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+}
+@media screen and (min-width:1560px) {
+    .main-visual h1 {
+        font-size: 220px;
+}
+    .main-visual h2 {
+        font-size: 130px;
+    }
+    .main-visual p {
+        font-size: 40px;
+    }
+}
+
+
+section {
+    padding: 0 70px;
+    padding-top: 100px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+p {
+    font-size: 30px;
+    padding: 5px;
+}
+.about-contents {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.contents-left1 img {
+    height: 400px;
+    box-shadow: 5px 5px 5px gray;
+    padding-left:30px;
+    padding-top: 10px;
+    
+}
+.contents-left2 img {
+    height: 400px;
+}
+
+.contents-right1 {
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+}
+.contents-right2 {
+    margin-left: 60px;
+}
+
+.contents-right h2 {
+    margin-bottom: 30px;
+}
+@media screen and (min-width:1560px) {
+    .about-contents {
+        flex-direction: row;
+    }
+}
+.cards {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    border: 1px solid black;
+    margin: 0 15px;
+    padding: 20px 30px;
+}
+.card h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media screen and (min-width:1560px) {
+    .cards {
+        flex-direction: row;
+}   
+}
+
+#contact {
+    background-image: url(../img/lunch2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    transition: 2s;
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+input, textarea {
+    width: 50%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 3px 12px;
+}
+@media screen and (min-width:1560px) {
+    .contact-wrap {
+        width: 80%;
+}   
+}
+input, textarea, button {
+    border-radius: 5px;
+}
+textarea {
+    width: 80%;
+    justify-content: center;
+}
+button {
+    width: 140px;
+    font-size: 23px;
+    padding: 7px;
+    height: 50px;
+    background-color: rgb(214, 48, 131);
+    margin-top: 26px;
+    cursor: pointer;
+    color: white;
+    transition: 2s;
+}
+button:hover {
+    background-color: orange;
+    color: black
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e066c2;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 60px;
+}
+footer p {
+    color: white;
+    font-size: 30px;
+}
