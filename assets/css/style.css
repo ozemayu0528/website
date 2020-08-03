@@ -164,7 +164,9 @@ p {
     align-items: center;
     flex-direction: column;
 }
-
+#contact>p {
+    width: 80vw;
+}
 .contact-wrap {
     display: flex;
     justify-content: center;
